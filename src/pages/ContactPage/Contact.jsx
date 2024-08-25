@@ -8,7 +8,7 @@ const title = "We're Always Eager To Hear From You!";
 const conSubTitle = "Get in touch with us";
 const conTitle =
   "Fill The Form Below So We Can Get To Know You And Your Needs Better.";
-const btnText = "Send our Message";
+const btnText = "Send Message";
 
 const contactList = [
   {
