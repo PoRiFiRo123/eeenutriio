@@ -51,6 +51,19 @@ const Shop = () => {
       <div className="shop-page padding-tb">
         <div className="container">
           <div className="row justify-content-center">
+            <div className="col-lg-4 col-12">
+                <aside>
+                  <Search products={products} GridList={GridList} />
+                  <ShopCategory
+                    filterItem={filterItem}
+                    setItem={setProducts}
+                    menuItems={menuItems}
+                    setProducts={setProducts}
+                    selectedCategory={selectedCategory}
+                  />
+                  {/* <PopularPost /> */}
+                </aside>
+              </div>
             <div className="col-lg-8 col-12">
               <article>
                 <div className="shop-title d-flex flex-wrap justify-content-between">
@@ -82,7 +95,7 @@ const Shop = () => {
                 />
               </article>
             </div>
-            <div className="col-lg-4 col-12">
+            {/* <div className="col-lg-4 col-12">
               <aside>
                 <Search products={products} GridList={GridList} />
                 <ShopCategory
@@ -92,9 +105,10 @@ const Shop = () => {
                   setProducts={setProducts}
                   selectedCategory={selectedCategory}
                 />
-                {/* <PopularPost /> */}
+                
               </aside>
-            </div>
+            </div> 
+            */}
           </div>
         </div>
       </div>
