@@ -19,7 +19,9 @@ const SingleProduct = () => {
   useEffect(() => {
     fetch("/products.json")
       .then((res) => res.json())
-      .then((data) => setProduct(data));
+      .then((data) => setProduct(data))
+      .then((data) => setResult(data.filter((p) => p.id == id)));
+
   }, []);
 
 
