@@ -16,10 +16,10 @@ const About = () => {
             <div className="col">
               <div className="about-left">
                 <div className="about-thumb">
-                  <img src="/src/assets/images/about/pavana.jpg" height="500px" width="470px" alt="about" />
+                  <img src="https://i.pinimg.com/736x/95/b5/0f/95b50fbf304aadc14e5cc82ad200f6b0.jpg" height="500px" width="470px" alt="about" />
                 </div>
                 <div className="abs-thumb">
-                  <img src="src/assests/images/about/deepak.jpeg" height="270px" width="300" alt="about" />
+                  <img src="https://i.pinimg.com/736x/3a/82/76/3a827633ab8706d6968659ebe4ee4459.jpg" height="270px" width="300" alt="about" />
                 </div>
               </div>
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '20px' }}>
