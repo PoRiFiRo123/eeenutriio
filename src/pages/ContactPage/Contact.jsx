@@ -18,19 +18,19 @@ const contactList = [
     desc: "209/30 1st 'A, main, 7th Main Rd, Jaya Nagar 1st Block, Byrasandra, Jayanagar, Bengaluru, Karnataka 560011",
   },
   {
-    imgUrl: "/src/assets/images/icon/02.png",
+    imgUrl: "https://i.imgur.com/IMPfrPW.png",
     imgAlt: "contact icon",
     title: "Phone number",
     desc: "+91 72592 32905",
   },
   {
-    imgUrl: "/src/assets/images/icon/03.png",
+    imgUrl: "https://i.imgur.com/IMPfrPW.png",
     imgAlt: "contact icon",
     title: "Send email",
     desc: "hello@nutriio.in",
   },
   {
-    imgUrl: "/src/assets/images/icon/04.png",
+    imgUrl: "https://i.imgur.com/389mkAd.png",
     imgAlt: "contact icon",
     title: "Our website",
     desc: "www.nutriio.in",
