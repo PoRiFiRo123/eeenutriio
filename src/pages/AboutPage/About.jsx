@@ -19,7 +19,7 @@ const About = () => {
                   <img src="/src/assets/images/about/pavana.jpg" height="500px" width="470px" alt="about" />
                 </div>
                 <div className="abs-thumb">
-                  <img src="/src/assets/images/about/deepak.jpeg" height="270px" width="300" alt="about" />
+                  <img src="src/assests/images/about/deepak.jpeg" height="270px" width="300" alt="about" />
                 </div>
               </div>
               <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', marginTop: '20px' }}>
