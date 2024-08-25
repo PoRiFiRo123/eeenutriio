@@ -24,7 +24,7 @@ const contactList = [
     desc: "+91 72592 32905",
   },
   {
-    imgUrl: "https://i.imgur.com/IMPfrPW.png",
+    imgUrl: "https://i.imgur.com/xhOVcJC.png",
     imgAlt: "contact icon",
     title: "Send email",
     desc: "hello@nutriio.in",
