@@ -31,13 +31,13 @@ const categoryList = [
         title: 'Healthy Bites',
     },
     {
-        imgUrl: 'src/assets/images/category/05.jpg',
+        imgUrl: 'https://i.pinimg.com/736x/fe/76/2c/fe762c7bfd9c99af0d8081164af6939c.jpg',
         imgAlt: 'category rajibraj91 rajibraj',
         iconName: 'icofont-brand-windows',
         title: 'Pure Extracts',
     },
     {
-        imgUrl: 'src/assets/images/category/06.jpg',
+        imgUrl: 'https://i.pinimg.com/736x/11/66/b8/1166b8888b880f4c20567311276b75cf.jpg',
         imgAlt: 'category rajibraj91 rajibraj',
         iconName: 'icofont-brand-windows',
         title: 'Activated Millet/Flour',
