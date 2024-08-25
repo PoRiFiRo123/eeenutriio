@@ -92,7 +92,7 @@ const Shop = () => {
                   setProducts={setProducts}
                   selectedCategory={selectedCategory}
                 />
-                <PopularPost />
+                {/* <PopularPost /> */}
               </aside>
             </div>
           </div>
