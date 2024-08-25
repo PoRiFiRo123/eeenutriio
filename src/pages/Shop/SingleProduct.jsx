@@ -90,7 +90,7 @@ const SingleProduct = () => {
             </div>
             <div className="col-lg-4 col-md-7 col-12">
               <aside className="ps-lg-4">
-                <MostPopularPost />
+{/*                 <MostPopularPost /> */}
                 {/* <Tags /> */}
               </aside>
             </div>
