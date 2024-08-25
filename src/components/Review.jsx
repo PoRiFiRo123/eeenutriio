@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import Rating from "./Sidebar/rating";
 
 const reviwtitle = "Add a Review";
 let ReviewList = [

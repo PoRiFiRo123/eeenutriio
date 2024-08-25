@@ -39,7 +39,7 @@ const Shop = () => {
   };
 
   const handleWhatsAppClick = () => {
-    const phoneNumber = '1234567890'; // Replace with your desired phone number
+    const phoneNumber = '917259232905'; // Replace with your desired phone number
     window.open(`https://wa.me/${phoneNumber}`, '_blank');
   };
 

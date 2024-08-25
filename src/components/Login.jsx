@@ -12,33 +12,13 @@ const socialList = [
     iconName: "icofont-github",
     className: "github",
   }
-  // {
-  //   link: "#",
-  //   iconName: "icofont-facebook",
-  //   className: "facebook",
-  // },
-  // {
-  //   link: "#",
-  //   iconName: "icofont-twitter",
-  //   className: "twitter",
-  // },
-  // {
-  //   link: "#",
-  //   iconName: "icofont-linkedin",
-  //   className: "linkedin",
-  // },
-  // {
-  //   link: "#",
-  //   iconName: "icofont-instagram",
-  //   className: "instagram",
-  // },
+  
 ];
 
 const Login = () => {
   const [errorMessage, setErrorMessage] = useState("");
   const { signUpWithGmail, login } = useContext(AuthContext);
 
-  // console.log(signUpWithGmail);
   const location = useLocation();
   const navigate = useNavigate();
 
@@ -138,26 +118,7 @@ const Login = () => {
                     <i className="icofont-github"></i>
                   </button>
                 </li>
-                {/* <li>
-                  <a href="/" className="facebook">
-                    <i className="icofont-facebook"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="/" className="twitter">
-                    <i className="icofont-twitter"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="/" className="linkedin">
-                    <i className="icofont-linkedin"></i>
-                  </a>
-                </li>
-                <li>
-                  <a href="/" className="instagram">
-                    <i className="icofont-instagram"></i>
-                  </a>
-                </li> */}
+                
               </ul>
             </div>
           </div>

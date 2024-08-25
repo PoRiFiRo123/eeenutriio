@@ -6,7 +6,7 @@ const title = "About Nutriio";
 const desc = "Explore our diverse range of natural, nutritious foods on our easy-to-navigate website. Simply visit, browse, and start your journey to better health with every purchase!";
 const ItemTitle = "Quick Links";
 const quickTitle = "Categories";
-const tweetTitle = "Recent Tweets";
+
 
 const addressList = [
     {
@@ -29,11 +29,6 @@ const socialList = [
         siteLink: 'https://www.facebook.com/nutriio.in/',
         className: 'facebook',
     },
-    // {
-    //     iconName: 'icofont-twitter',
-    //     siteLink: '#',
-    //     className: 'twitter',
-    // },
     {
         iconName: 'icofont-linkedin',
         siteLink: 'https://in.linkedin.com/company/nutriio-products',
@@ -101,36 +96,6 @@ const quickList = [
     },
     {
         text: 'Activated Millet/Flour',
-        link: '#',
-    },
-]
-
-const tweetList = [
-    {
-        iconName: 'icofont-twitter',
-        desc: <p>Aminur islam <a href="#">@ShopCart Greetings!  #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
-    },
-    {
-        iconName: 'icofont-twitter',
-        desc: <p>Somrat islam <a href="#">@ShopCart Hey! #HTML_Template</a> Grab your item, 50% Big Sale Offer !!</p>,
-    },
-]
-
-const footerbottomList = [
-    {
-        text: 'Faculty',
-        link: '#',
-    },
-    {
-        text: 'Staff',
-        link: '#',
-    },
-    {
-        text: 'Students',
-        link: '#',
-    },
-    {
-        text: 'Alumni',
         link: '#',
     },
 ]
@@ -204,25 +169,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className="col">
-                    {/* <div className="footer-item twitter-post">
-                        <div className="footer-inner">
-                            <div className="footer-content">
-                                <div className="title">
-                                    <h4>{tweetTitle}</h4>
-                                </div>
-                                <div className="content">
-                                    <ul className="lab-ul">
-                                        {tweetList.map((val, i) => (
-                                            <li key={i}>
-                                                <i className={val.iconName}></i>
-                                                {val.desc}
-                                            </li>
-                                        ))}
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div> */}
+                    
                 </div>
             </div>
         </div>
@@ -231,11 +178,7 @@ const Footer = () => {
         <div className="container">
             <div className="section-wrapper">
                 <p>&copy; 2024 Designed by<Link to="/">Nutriio</Link>  </p>
-                {/* <div className="footer-bottom-list">
-                    {footerbottomList.map((val, i) => (
-                        <a href={val.link} key={i}>{val.text}</a>
-                    ))}
-                </div> */}
+                
             </div>
         </div>
     </div>

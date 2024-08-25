@@ -1,18 +1,18 @@
 import React from 'react';
 import Banner from './Banner';
 import HomeCategory from './HomeCategory';
-import Register from './Register';
+// import Register from './Register';
 import LocationSprade from './LocationSprade';
 import AboutUs from './AboutUs';
-import AppSection from './AppSection';
-import Sponsor from './Sponsor';
-import CategoryShowCase from './CategoryShowCase';
+// import AppSection from './AppSection';
+// import Sponsor from './Sponsor';
+// import CategoryShowCase from './CategoryShowCase';
 import { FaWhatsapp } from 'react-icons/fa'; // Import WhatsApp icon
 
 const Home = () => {
   const handleWhatsAppClick = () => {
     // Replace with your desired phone number
-    const phoneNumber = '1234567890';
+    const phoneNumber = '917259232905';
     window.open(`https://wa.me/${phoneNumber}`, '_blank');
   };
 
