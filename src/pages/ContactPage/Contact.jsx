@@ -12,7 +12,7 @@ const btnText = "Send our Message";
 
 const contactList = [
   {
-    imgUrl: "/src/assets/images/icon/01.png",
+    imgUrl: "https://i.imgur.com/jlqicMv.png",
     imgAlt: "contact icon",
     title: "Office Address",
     desc: "209/30 1st 'A, main, 7th Main Rd, Jaya Nagar 1st Block, Byrasandra, Jayanagar, Bengaluru, Karnataka 560011",
