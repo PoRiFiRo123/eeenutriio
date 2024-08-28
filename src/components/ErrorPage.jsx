@@ -17,7 +17,7 @@ const ErrorPage = () => {
                     <div className="col-lg-4 col-sm-6 col-12">
                         <div className="four-zero-content">
                             <Link to="/">
-                                <img src="../assets/images/logo/logo.png" alt="CodexCoder" />
+                                <img src="https://i.imgur.com/pMRUnQu.png" alt="Nutriio" />
                             </Link>
                             <h2 className="title">{title}</h2>
                             <p>{desc}</p>
@@ -26,7 +26,7 @@ const ErrorPage = () => {
                     </div>
                     <div className="col-lg-8 col-sm-6 col-12">
                         <div className="foue-zero-thumb">
-                            <img src="/src/assets/images/404.png" alt="CodexCoder" />
+                            <img src="/src/assets/images/404.png" alt="Nutriio" />
                         </div>
                     </div>
                 </div>
