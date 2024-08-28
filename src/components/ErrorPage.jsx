@@ -17,7 +17,7 @@ const ErrorPage = () => {
                     <div className="col-lg-4 col-sm-6 col-12">
                         <div className="four-zero-content">
                             <Link to="/">
-                                <img src="/src/assets/images/logo/logo.png" alt="CodexCoder" />
+                                <img src="../assets/images/logo/logo.png" alt="CodexCoder" />
                             </Link>
                             <h2 className="title">{title}</h2>
                             <p>{desc}</p>

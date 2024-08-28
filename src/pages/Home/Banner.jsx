@@ -66,7 +66,7 @@ const Banner = () => {
         className="slideshow-image"
         style={{
           width: "100%",
-          height: "calc(100% - 90px)", // Full height minus the navbar
+          height: "100%", // Full height minus the navbar
           objectFit: "contain", // Adjusted to 'contain' to ensure the whole image is visible
           display: "block",
         }}
