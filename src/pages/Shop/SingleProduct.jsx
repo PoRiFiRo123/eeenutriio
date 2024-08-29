@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 import PageHeader from "../../components/PageHeader";
+import { FaWhatsapp } from "react-icons/fa"; // Import WhatsApp icon
+
 
 import { Swiper, SwiperSlide } from "swiper/react";
 // Import Swiper styles
@@ -24,12 +26,37 @@ const SingleProduct = () => {
 
   }, []);
 
+  const handleWhatsAppClick = () => {
+    // Replace with your desired phone number
+    const phoneNumber = '917259232905';
+    window.open(`https://wa.me/${phoneNumber}`, '_blank');
+  };
+
 
   const result = product.filter((p) => p.id === id);
   return (
     
     <div>
       <PageHeader title={"OUR SHOP SINGLE"} curPage={"Shop / Single Product"} />
+
+      <div 
+        onClick={handleWhatsAppClick} 
+        style={{
+          position: 'fixed',
+          bottom: '20px',
+          right: '20px',
+          backgroundColor: '#25D366',
+          color: 'white',
+          borderRadius: '50%',
+          padding: '15px',
+          cursor: 'pointer',
+          zIndex: 1000,
+          boxShadow: '0 4px 8px rgba(0, 0, 0, 0.2)',
+        }}
+      >
+        <FaWhatsapp size={30} />
+      </div>
+
       <div className="shop-single padding-tb aside-bg">
         <div className="container">
           <div className="row justify-content-center">
