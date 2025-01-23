@@ -1,5 +1,5 @@
 
-import { Link } from "react-router-dom";
+import { Link } from "react-router-dom"; 
 
 const title = <h2 className="title">Good Food <span className="yellow-color">Good Health</span> </h2>;
 const desc = "Shop Healthier with Us!";

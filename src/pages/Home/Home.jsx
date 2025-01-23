@@ -22,7 +22,7 @@ const Home = () => {
       <HomeCategory />
       {/* <CategoryShowCase/> */}
       {/* <Register/> */}
-      <LocationSprade />
+      {/* <LocationSprade /> */}
       <AboutUs />
       {/* <AppSection/> */}
       {/* <Sponsor/> */}

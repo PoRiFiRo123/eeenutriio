@@ -27,7 +27,7 @@ const SelectCategory = ({ selected }) => {
       <option value="meal-moments">Meal Moments</option>
       <option value="healthy-bites">Healthy Bites</option>
       <option value="pure-extracts">Pure Extracts</option>
-      <option value="activated-millet-flour">Activated Millet Flour</option>
+      <option value="activated-millet/flour">Activated Millet Flour</option>
     </select>
   );
 };

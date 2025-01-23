@@ -76,27 +76,27 @@ const ItemList = [
 const quickList = [
     {
         text: 'Nutrient Boosters',
-        link: '#',
+        link: '/shop?category=nutrient-boosters',
     },
     {
         text: 'Sprouted Flour',
-        link: '#',
+        link: '/shop?category=sprouted-flour',
     },
     {
         text: 'Meal Moments',
-        link: '#',
+        link: '/shop?category=meal-moments',
     },
     {
         text: 'Healthy Bites',
-        link: '#',
+        link: '/shop?category=healthy-bites',
     },
     {
         text: 'Pure Extracts',
-        link: '#',
+        link: '/shop?category=pure-extracts',
     },
     {
         text: 'Activated Millet/Flour',
-        link: '#',
+        link: '/shop?category=activated-millet/flour',
     },
 ]
 
