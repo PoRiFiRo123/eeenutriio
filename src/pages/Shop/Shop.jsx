@@ -41,7 +41,7 @@ const Shop = () => {
     } else {
       // Filter data by comparing slugified product.category with the param
       const filtered = Data.filter(
-        (item) => slugify(item.category) === cat.toLowerCase()
+        (item) => slugify(item.category) === cat.toLowerCase() 
       );
       setProducts(filtered);
       setSelectedCategory(cat);
